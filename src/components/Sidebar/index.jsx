@@ -16,17 +16,17 @@ export const SideBar = () => {
                 <span>Home</span>
             </NavLink>
             <NavLink className={getStyles} to='/archive'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     archive
                 </span>
                 <span>Archive</span></NavLink>
             <NavLink className={getStyles} to='/important'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     label_important
                 </span>
                 <span>Important</span></NavLink>
             <NavLink className={getStyles} to='/bin'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     delete
                 </span>
                 <span>Bin</span></NavLink>
